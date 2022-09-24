@@ -12,6 +12,7 @@ import {
 } from 'rxjs';
 
 concat(
+  //change delay values to check functions behaviour
   of(1).pipe(delay(1000)),
   of(2).pipe(delay(1000)),
   of(3).pipe(delay(1000))
